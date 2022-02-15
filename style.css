@@ -110,7 +110,7 @@ html {
 /*******HEADER SECTION********/
 
 header {
-	background-image: linear-gradient(#00000080,#00000080), url(testimonial-bg1.jpg);
+	background-image: linear-gradient(#00000084,#00000084), url(testimonial-bg1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
