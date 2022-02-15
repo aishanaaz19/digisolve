@@ -1,0 +1,134 @@
+/* Laptop screens to large tablet sreens*/
+@media only screen and (max-width: 1200px)
+{
+	html,
+	body{
+		font-size: 14px;
+	}
+	.laptop-img{
+		width: 80%;
+		margin-right: 30px;
+	}
+	
+	.testimonial-heading,
+	.packages-heading,
+	.contact-heading{
+		margin-top: 90px;
+	}
+	.footer-nav li,
+    .social-links li{
+	     margin: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px){
+	html,
+	body{
+		font-size: 12px;
+	}
+	.footer-nav,
+	.social-links{
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	html,
+	body{
+		font-size: 10px;
+	}
+	.header-box-text{
+	   margin-bottom: 50px;
+	   line-height: 1.2;
+    }
+    .logo{
+	   height: 90px;
+    }
+    .about-section{
+    	margin-top: 50px;
+    }
+    .about-heading{
+	   margin: 0 auto 30px auto;
+	}
+	.about-box{
+	   margin-bottom: 30px;
+    }
+    .about-para{
+    	margin-bottom: 30px;
+    }
+    .section-heading{
+	    margin: 80px auto 10px auto;
+    }
+    .service-section-heading {
+        margin: 300px auto 10px auto;
+    }
+    .section-sub-heading:after{
+	    margin: 15px auto 0 auto;
+    }
+    .service-heading{
+        margin: 30px auto 30px auto;
+
+    }
+    .partner-section{
+    	padding: 0 5%;
+    }
+    .testimonial-section{
+    	padding: 0 5%;
+	}
+	.footer-nav li,
+    .social-links li{
+	    margin: 7px;
+    }
+    .package-heading{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+	 .logo{
+	   height: 80px;
+     }
+	.laptop-img{
+	   padding: 0;
+	   margin: 0 auto;
+    }
+    .about-box:first-child{
+	    text-align: center;
+	    padding: 5% 10%;
+    }
+    .about-box:last-child {
+	    text-align: center;
+    }
+    .work-portfolio li{
+    	width: 50%;
+    }
+    .service-section-heading {
+        margin: 570px auto 10px auto;
+    }
+
+    blockquote {
+	    margin-top: 20px;
+    }
+    .client-name {
+        margin: 10px auto 100px auto;
+    }
+    .span_1_of_4{
+    	width: 45%;
+    	margin-bottom: 20px;
+    }
+    .span_1_of_3{
+    	padding: 0 10%;
+    	margin-bottom: 5px;
+    }
+    .contact-label{
+    	padding-left: 0;
+    }
+    .footer-nav,
+    .social-links{
+    	float: none;
+    	text-align: center;
+    	margin-bottom: 10px;
+    }
+}
