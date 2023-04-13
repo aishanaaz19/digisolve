@@ -1,2 +1,2 @@
 Digisolve-The digital agency
-Dummy website for learning purpose.
+A Dummy website made for learning purpose.
